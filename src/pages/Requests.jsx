@@ -87,7 +87,8 @@ export default function Requests() {
 										{sortConfig.key === col.key ? (sortConfig.direction === "asc" ? " ▲" : " ▼") : null}
 									</span>
 								</th>
-							))}
+							))} 
+							{/* test */}
 							<th>Action</th>
 						</tr>
 					</thead>
